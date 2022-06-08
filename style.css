@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    overflow: hidden;
+    background-color: rgb(221, 49, 49);
+}
+header .logo{
+    width: 10%;
+    float: left;
+
+}
+header.logo img{
+    width: 100px;
+}
+header .menu{
+    width: 60%;
+    float:right;
+    
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+    padding-top: 50px;
+}
+.menu ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    background-color: #ffff;
+    border-radius: 20px;
+
+    transition: 0.5s;
+    
+}
+#heroarea{
+    height: 100vh;
+    background-image: url("photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#heroarea h1{
+    position: 300px 70px;
+    color: #ffff;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 200px;
+
+}
+/* ----------------Card section------------------ */
+#mainarea{
+    height: 40vh;
+    background-color: gray;
+}
+
+
+#mainarea .card_1{
+    float: left;
+    width: 30%;
+    border: 2px solid red;
+    margin-left: 20px;
+    height: 200px;
+    background-color: rgb(0, 191, 255);
+}
+
+#mainarea .card_1:hover{
+    background-color: yellow;
+   border-radius: 30px;
+   transition: 0.7s;
+   cursor: pointer;
+}
+
+#mainarea .card .card_1 h1{
+    color: red;
+    text-align: center;
+    padding-top: 20px;
+}
+#mainarea .card .card_1 p{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+
+footer{
+    height: 20vh;
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
